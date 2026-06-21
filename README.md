@@ -239,11 +239,3 @@ This project demonstrates the application of Machine Learning techniques for rea
 
 ---
 
-## 👨‍💻 Author
-
-**Manav Kashyap**
-
-B.Tech Electronics & Communication Engineering (ECE)  
-USICT, GGSIPU
-
-Machine Learning | Deep Learning | Artificial Intelligence
