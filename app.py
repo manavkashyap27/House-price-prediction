@@ -8,16 +8,14 @@ import base64
 
 result = None
 
-with open(
-        r"C:\Users\Asus\PycharmProjects\Real_Estate_price_prediction\Model\bangalore_home_prices_model.pickle", 
-        'rb') as f:
+
+with open("bangalore_home_prices_model.pickle", "rb") as f:
     __model = pickle.load(f)
 
-with open(r"C:\Users\Asus\PycharmProjects\Real_Estate_price_prediction\Model\Columns.json", 'r') as obj:
+with open("Columns.json", "r") as obj:
     __data_columns = json.load(obj)["Columns"]
     __area_types = __data_columns[4:8]
     __locations = __data_columns[8:]
-
 
 def get_predicted_price(area_type, location, sqft, balcony, bathroom, BHK):
     try:
